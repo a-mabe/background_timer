@@ -186,7 +186,7 @@ packages:
     description:
       path: "packages/flutter_background_service"
       ref: prevent-background-start
-      resolved-ref: "598773ddc4ad2e0f8b6c9e87fb5020d21bd867e2"
+      resolved-ref: e6a88d54a93083a77aaa72271fa5bc29ffd174a0
       url: "https://github.com/a-mabe/flutter_background_service.git"
     source: git
     version: "5.0.1"
@@ -195,7 +195,7 @@ packages:
     description:
       path: "packages/flutter_background_service_android"
       ref: prevent-background-start
-      resolved-ref: "598773ddc4ad2e0f8b6c9e87fb5020d21bd867e2"
+      resolved-ref: e6a88d54a93083a77aaa72271fa5bc29ffd174a0
       url: "https://github.com/a-mabe/flutter_background_service.git"
     source: git
     version: "6.0.1"
