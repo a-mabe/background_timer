@@ -185,8 +185,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/flutter_background_service"
-      ref: prevent-background-start
-      resolved-ref: e6a88d54a93083a77aaa72271fa5bc29ffd174a0
+      ref: prevent-autostart-on-boot
+      resolved-ref: fcc7de6a83817c0f3e1e3e454e2e4e79f566aa02
       url: "https://github.com/a-mabe/flutter_background_service.git"
     source: git
     version: "5.0.1"
@@ -194,8 +194,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/flutter_background_service_android"
-      ref: prevent-background-start
-      resolved-ref: e6a88d54a93083a77aaa72271fa5bc29ffd174a0
+      ref: prevent-autostart-on-boot
+      resolved-ref: fcc7de6a83817c0f3e1e3e454e2e4e79f566aa02
       url: "https://github.com/a-mabe/flutter_background_service.git"
     source: git
     version: "6.0.1"

@@ -22,13 +22,13 @@ dependencies:
   flutter_background_service:
     git:
       url: https://github.com/a-mabe/flutter_background_service.git
-      ref: prevent-background-start # branch name
+      ref: prevent-autostart-on-boot # branch name
       path: ./packages/flutter_background_service
 
   flutter_background_service_android:
     git:
       url: https://github.com/a-mabe/flutter_background_service.git
-      ref: prevent-background-start # branch name
+      ref: prevent-autostart-on-boot # branch name
       path: ./packages/flutter_background_service_android
   audio_session: ^0.1.16
   just_audio: ^0.9.35
