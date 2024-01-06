@@ -75,6 +75,11 @@ class Countdown extends StatefulWidget {
   ///
   final String status;
 
+  /// Describes the previous view before navigating to
+  /// the timer screen.
+  ///
+  final String navigatedFrom;
+
   ///
   /// Simple countdown timer
   ///
@@ -90,6 +95,7 @@ class Countdown extends StatefulWidget {
     this.restSound = 'short-rest-beep',
     this.halfwaySound = 'short-halfway-beep',
     this.countdownSound = 'countdown-beep',
+    this.navigatedFrom = "",
     this.onFinished,
     this.controller,
   }) : super(key: key);
@@ -137,8 +143,9 @@ class CountdownState extends State<Countdown> with WidgetsBindingObserver {
     widget.controller?.setOnRestart(_onTimerRestart);
     widget.controller?.isCompleted = false;
 
-    if (widget.controller == null || widget.controller!.autoStart == true) {
-      // _startTimer();
+    if ((widget.controller == null && widget.navigatedFrom != "") ||
+        (widget.controller!.autoStart == true && widget.navigatedFrom != "")) {
+      _startTimer();
     }
   }
 
